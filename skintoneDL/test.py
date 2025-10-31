@@ -12,7 +12,7 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 # Load and preprocess image
-img_path = r"C:\Users\Surajj\DermaLyzerPro\skintoneDL\download.jpeg"
+img_path = r"skintoneDL\download.jpeg"
 img = image.load_img(img_path, target_size=(224, 224))
 img_array = image.img_to_array(img) / 255.0
 img_array = np.expand_dims(img_array, axis=0).astype(np.float32)
