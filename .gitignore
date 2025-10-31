@@ -6,4 +6,4 @@ venv/
 # Ignore dataset and other large files
 Skin_classifier/dataset/
 
-Skin_classifier/model_stats(for understanding only).txt
+Skin_classifier/model_stats(for_understanding_only).txt
