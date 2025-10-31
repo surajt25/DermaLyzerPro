@@ -7,3 +7,5 @@ venv/
 Skin_classifier/dataset/
 
 Skin_classifier/model_stats(for_understanding_only).txt
+
+skintoneDL/dataset-skintone
