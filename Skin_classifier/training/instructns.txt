@@ -1,0 +1,17 @@
+
+
+#----How to run-----# :
+
+1) Train your custom CNN:
+        
+            python combine_training.py --train_cnn --epochs 30
+
+
+2) Train EfficientNet:
+
+            python combine_training.py --train_effnet --epochs 30
+
+
+3) Evaluate ensemble:
+
+            python combine_training.py --ensemble_eval

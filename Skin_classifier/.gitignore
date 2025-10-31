@@ -1,0 +1,9 @@
+# Ignore virtual environment
+.venv/
+venv/
+
+
+# Ignore dataset and other large files
+Skin_classifier/dataset/
+
+Skin_classifier/model_stats(for understanding only).txt
